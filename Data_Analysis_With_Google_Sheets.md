@@ -36,4 +36,4 @@ You do this by performing the following steps:
 4. Reference the corresponding column number you are sorting by and add another comma.
 5. Decide whether you want the data in this column to be in ascending or descending order by typing TRUE or FALSE and close parenthesis: A TRUE statement is in ascending order, and FALSE is descending.
 It should look something like this:<br>
-=SORT(range,sort_by_column_number,TRUE(or FALSE))
+`=SORT(range,sort_by_column_number,TRUE(or FALSE))`
