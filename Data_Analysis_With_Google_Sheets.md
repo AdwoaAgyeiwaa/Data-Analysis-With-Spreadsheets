@@ -53,3 +53,19 @@ We perform the following function to convert from one unit of measurement to the
 You can regulate what can and can't be entered in your spreadsheet with data validation in spreadsheets. Data validation is commonly used to provide drop-down lists to cells with specified alternatives for users to select. Because you have complete control over what is entered into the worksheet, you will spend less time afterwards cleaning up the data.<br>
 
 ## Conditional Formatting
+
+# Manipulating Strings
+## Finding the Length of a Textstring
+We can use the `LEN` function to find the length of a textstring:<br>
+`=LEN(cell)`<br>
+
+## Finding a Particular Character Within a Textstring
+We can use the `FIND` function to locate the position of a specific character(such as `" "`, `"&"`,`"t"`) or substring in a textstring. Keep in mind that this is case sensitive, thus make sure to input substrings correctly:<br>
+`=FIND("character",cell)`
+
+## Isolating a Substring from a Textstring
+We can use the `LEFT` and `RIGHT` functions to select which parts of the string we want to isolate in a new column.<br>
+The `RIGHT` function is to isolate a substring on the right side of the textstring.<br>
+`=RIGHT(cell,position_of_last_character_substring_counting_from_the_end_of_the_textstring)`<br><br>
+Likewise, the `LEFT` function is to isolate a substring on the left side of the textstring.<br>
+`=LEFT(cell,position_of_last_character_substring_counting_from_the_beginning_of_the_textstring)`
