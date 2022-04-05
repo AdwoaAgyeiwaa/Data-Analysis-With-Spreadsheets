@@ -1,4 +1,4 @@
-# Analyzing Data
+# Organizing Data
 ## Sorting from the Data Tab
 This method uses the Data tab in the menu of your spreadsheet program.
 ### Sort by Sheet
@@ -38,6 +38,7 @@ You do this by performing the following steps:
 It should look something like this:<br>
 `=SORT(range,sort_by_column_number,TRUE(or FALSE))`
 
+# Formatting and Adjusting Data
 ## Combining Multiple Data in Different Cells
 We can use the CONCAT function to combine multiple values in cells by typing the following function in an empty cell:<br>
 `=CONCAT(cell1,cell2,...)`<br>
