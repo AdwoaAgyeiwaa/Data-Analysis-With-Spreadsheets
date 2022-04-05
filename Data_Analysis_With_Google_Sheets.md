@@ -48,3 +48,8 @@ For spaces between values, we use:<br>
 ## Converting Data from One Unit of Measurement to Another
 We perform the following function to convert from one unit of measurement to the other using the CONVERT function:<br>
 `=CONVERT(cell,"unit_of_measurement1","unit_of_measurement2")`
+
+## Validating Data
+You can regulate what can and can't be entered in your spreadsheet with data validation in spreadsheets. Data validation is commonly used to provide drop-down lists to cells with specified alternatives for users to select. Because you have complete control over what is entered into the worksheet, you will spend less time afterwards cleaning up the data.<br>
+
+## Conditional Formatting
