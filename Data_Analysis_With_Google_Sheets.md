@@ -37,3 +37,13 @@ You do this by performing the following steps:
 5. Decide whether you want the data in this column to be in ascending or descending order by typing TRUE or FALSE and close parenthesis: A TRUE statement is in ascending order, and FALSE is descending.
 It should look something like this:<br>
 `=SORT(range,sort_by_column_number,TRUE(or FALSE))`
+
+## Combining Multiple Data in Different Cells
+We can use the CONCAT function to combine multiple values in cells by typing the following function in an empty cell:<br>
+`=CONCAT(cell1,cell2,...)`
+For spaces between values, we use:<br>
+`=CONCAT(cell1," ",cell2)`
+
+## Converting Data from One Unit of Measurement to Another
+We perform the following function to convert from one unit of measurement to the other using the CONVERT function:<br>
+`=CONVERT(cell,"unit_of_measurement1","unit_of_measurement2")`
