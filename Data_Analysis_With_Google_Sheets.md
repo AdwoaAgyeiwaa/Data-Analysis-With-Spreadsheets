@@ -40,7 +40,7 @@ It should look something like this:<br>
 
 ## Combining Multiple Data in Different Cells
 We can use the CONCAT function to combine multiple values in cells by typing the following function in an empty cell:<br>
-`=CONCAT(cell1,cell2,...)`
+`=CONCAT(cell1,cell2,...)`<br>
 For spaces between values, we use:<br>
 `=CONCAT(cell1," ",cell2)`
 
