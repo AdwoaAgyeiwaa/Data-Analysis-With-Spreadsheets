@@ -94,3 +94,9 @@ If there are duplicate rows in the search, VLOOKUP will return only the first ma
 5. Make sure ‘Select All’ is selected (in the ‘Columns to Analyze’ section).
 6. Click on the ‘Remove duplicates’ button.
 
+## VLOOKUP
+`=VLOOKUP(cell_to_lookup,search_table_range,lookup_column_number_to_return,FALSE)`
+The argument `FALSE` returns an exact match while `TRUE` returns a close match. We will almost always want to return an exact match.<br><br>
+Using VLOOKUP to populate data in one spreadsheet from another:
+`=VLOOKUP(cell_to_lookup,'sheet_name'!search_table_range,lookup_column_number_to_return,FALSE)`
+
