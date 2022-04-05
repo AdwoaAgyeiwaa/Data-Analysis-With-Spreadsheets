@@ -69,3 +69,28 @@ The `RIGHT` function is to isolate a substring on the right side of the textstri
 `=RIGHT(cell,position_of_last_character_substring_counting_from_the_end_of_the_textstring)`<br><br>
 Likewise, the `LEFT` function is to isolate a substring on the left side of the textstring.<br>
 `=LEFT(cell,position_of_last_character_substring_counting_from_the_beginning_of_the_textstring)`
+
+# Data Aggregation using `VLOOKUP`
+The process of gathering data from numerous sources and combining it into a single summarized collection is known as data aggregation. Data aggregation can provide you with a wealth of information about the data you're viewing.<br>
+VLOOKUP is an abbreviation for vertical lookup. It is just a function that searches for a specific value in a column and returns the corresponding piece of information.
+
+## Preparing for VLOOKUP
+We must ensure that our data is appropriately prepared before using VLOOKUP to prevent getting errors. Clean data is significantly more likely to yield reliable findings.
+
+### Converting Text to Numeric Values
+To convert a text string that represents a number to a numerical value, the `VALUE` function can be used:<br>
+`=VALUE(cell)`
+
+### Removing Extra Spaces
+When data is copied from one source to another, a few leading or trailing spaces may be included. We can use the `TRIM` function to get rid of this. TRIM automatically removes any additional spaces that have been added to the cell:
+`=TRIM(cell)`
+
+### Removing Duplicates of Data
+If there are duplicate rows in the search, VLOOKUP will return only the first match it finds.`Remove duplicates` is a tool that searches for and removes duplicate entries from a spreadsheet automatically.<br>
+1. Select the dataset from which you want to remove the duplicate records.
+2. Click the Data option in the menu.
+3. Click on the Remove Duplicates option.
+4. In the Remove Duplicates dialog box, make sure ‘Data has header row’ is selected (in case your data has the header row).
+5. Make sure ‘Select All’ is selected (in the ‘Columns to Analyze’ section).
+6. Click on the ‘Remove duplicates’ button.
+
