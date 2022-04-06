@@ -96,8 +96,8 @@ If there are duplicate rows in the search, VLOOKUP will return only the first ma
 
 ## VLOOKUP
 Even if there are several possible matches, VLOOKUP only returns the first match it finds. It's also worth noting that VLOOKUP can only return a value from the data on the right - it can't look left.<br>
-`=VLOOKUP(cell_to_lookup,search_table_range(using absolute referencing),lookup_column_number_to_return,FALSE)`<br>
+`=VLOOKUP(lookup_value, table_array_using_absolute_referencing, column_index_num, FALSE)`<br>
 The argument `FALSE` returns an exact match while `TRUE` returns a close match. We will almost always want to return an exact match.<br><br>
 Using VLOOKUP to populate data in one spreadsheet from another:<br>
-`=VLOOKUP(cell_to_lookup,'sheet_name'!search_table_range(using absolute referencing),lookup_column_number_to_return,FALSE)`
+`=VLOOKUP(lookup_value,'sheet_name'!table_array_using_absolute_referencing,column_index_num,FALSE)`
 
