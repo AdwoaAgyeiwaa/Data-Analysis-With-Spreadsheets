@@ -101,3 +101,13 @@ The argument `FALSE` returns an exact match while `TRUE` returns a close match. 
 Using VLOOKUP to populate data in one spreadsheet from another:<br>
 `=VLOOKUP(lookup_value,'sheet_name'!table_array_using_absolute_referencing,column_index_num,FALSE)`
 
+# Data Calculations
+## Common calculation formulas
+SUM
+AVERAGE
+MIN
+MAX
+## Functions
+COUNTIF
+SUMIF
+## Conditions
