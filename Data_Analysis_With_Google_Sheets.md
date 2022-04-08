@@ -132,6 +132,6 @@ The AVERAGEIF function will average the values in an array based on a given crit
 Note for Microsoft Excel users: MAXIFS can only be used with an Office 365 subscription on Excel 2016 or newer. If you cannot use a version of Excel that allows the function MAXIFS, please use Google Sheets for this part of the activity.<br>
 The first argument, max_range, is the array over which you are finding the maximum. The second argument (range1) is the array you are checking. The third argument (criteria1) is the value that you are checking for. The inputs in the square brackets are for optional additional constraints.
 `=MAXIFS(max_range, range1, criteria1, [range2], [criteria2], ...)`
-
+## Composite functions
 ### `SUMPRODUCT`
 ## Conditions
