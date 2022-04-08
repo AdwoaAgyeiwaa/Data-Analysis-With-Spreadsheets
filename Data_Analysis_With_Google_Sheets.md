@@ -108,6 +108,30 @@ AVERAGE
 MIN
 MAX
 ## Functions
-COUNTIF
-SUMIF
+
+### `COUNTIF`
+The range is the array (or collection) of cells that you are checking and the criteria is what you are checking for. All cells in the array that match the provided criteria will be counted and this number returned as the value of the function.
+`=COUNTIF(range, criteria)`
+
+### `COUNTIFS`
+
+### `SUMIF`
+The SUMIF function is used to create a sum of the values of cells that meet a specific criteria. It supports the logical operators (>, <, <>, =).<br>
+The input range is the array of cells that you check against the value of criteria. The sum_range is the array of values that you will sum up if the criteria is met. In this syntax below, the square brackets around sum_range indicate that this input is optional. However, you do not add square brackets when writing the function. If the argument sum_range is absent, then the SUMIF will sum the values in range by default.
+`=SUMIF(range, criteria, [sum_range] )`
+
+### `SUMIFS`
+
+### `AVERAGEIF`
+The AVERAGEIF function will average the values in an array based on a given criteria. The inputs to this function, range, criteria, and sum_range, work in exactly the same manner as in the SUMIF function. Again, the sum_range is optional.
+`=AVERAGEIF(range, criteria, [sum_range])`
+
+### `AVERAGEIFS`
+
+### `MAXIFS`
+Note for Microsoft Excel users: MAXIFS can only be used with an Office 365 subscription on Excel 2016 or newer. If you cannot use a version of Excel that allows the function MAXIFS, please use Google Sheets for this part of the activity.<br>
+The first argument, max_range, is the array over which you are finding the maximum. The second argument (range1) is the array you are checking. The third argument (criteria1) is the value that you are checking for. The inputs in the square brackets are for optional additional constraints.
+`=MAXIFS(max_range, range1, criteria1, [range2], [criteria2], ...)`
+
+### `SUMPRODUCT`
 ## Conditions
